@@ -1,0 +1,18 @@
+{
+  "name": "ryd-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.8",
+    "join-monster": "^2.1.1",
+    "pg": "^7.17.1"
+  }
+}
