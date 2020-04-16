@@ -1,8 +1,12 @@
 {
-  "name": "ryd-api-2",
+  "name": "ryd-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "RYD API to access the RYD Database",
   "main": "main.js",
+  "engines": {
+    "node": "12.14.1",
+    "npm": "6.13.4"
+  },
   "scripts": {
     "start": "node main.js"
   },
