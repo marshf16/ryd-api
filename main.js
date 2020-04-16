@@ -41,7 +41,9 @@ app.use('/graphql', bodyParser.json(), graphqlExpress({ schema }));
 // GraphiQL, a visual editor for queries
 app.use('/graphiql', graphiqlExpress({ endpointURL: '/graphql' }));
 
+app.set( 'port', ( 5000 ));
+
 // Start the server
-app.listen(3000, () => {
-  console.log('Go to http://localhost:3000/graphiql to run queries!');
+app.listen(app.get( 'port' ), () => {
+  console.log('Go to http://localhost:5000/graphiql to run queries!');
 });
